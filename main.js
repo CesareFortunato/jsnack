@@ -31,30 +31,30 @@ else{
 let numbers = [];
 
 
- for(let i = 0; i <= 4; i++){
+for (let i = 0; i <= 4; i++) {
     let chosenNumber = parseInt(prompt("inserisci un numero"));
     numbers.push(chosenNumber);
- }
+}
 
- console.log(numbers);
- 
+console.log(numbers);
 
-/*   let sum = 0;
+
+/*  let sum = 0;
 
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
-}   */
+}  */
 
 
 
 let sum = 0;
-    let i = -1;
-while(++i < numbers.length){
+let i = -1;
+while (++i < numbers.length) {
     sum += numbers[i];
-    
+
 }
 console.log(sum);
- 
+
 
 
 
