@@ -28,7 +28,7 @@ else{
  Il software deve chiedere per 5 volte all’utente di inserire un numero. 
  Il programma stampa la somma di tutti i numeri inseriti. 
  Esegui questo programma in due versioni, con il for e con il while (facoltativo) */
-let numbers = [];
+/* let numbers = [];
 
 
 for (let i = 0; i <= 4; i++) {
@@ -39,11 +39,11 @@ for (let i = 0; i <= 4; i++) {
 console.log(numbers);
 
 
-/*  let sum = 0;
+  let sum = 0;
 
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
-}  */
+}  
 
 
 
@@ -53,8 +53,23 @@ while (++i < numbers.length) {
     sum += numbers[i];
 
 }
-console.log(sum);
+console.log(sum); */
 
 
 
+/* 
+Snack 5
+ Crea un array vuoto. 
+ Chiedi per 6 volte all’utente di inserire un numero, 
+ se è dispari inseriscilo nell’array */
 
+const emptyArray = [];
+
+for(let i = 0; i < 6; i++){
+   let chosenNum = parseInt(prompt("inserisci un numero"))
+   if(chosenNum % 2 === 1){
+    emptyArray.push(chosenNum);
+   }
+}
+
+console.log(emptyArray);
